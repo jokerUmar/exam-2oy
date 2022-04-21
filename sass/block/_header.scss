@@ -100,15 +100,16 @@
 @media screen and(max-width:767px) {
   
   .linked{
-    max-width: 200px;
-    position: absolute;
+    max-width: 400px;
+    position: fixed;
     flex-direction: column;
     align-items: center;
-    top: 0;
+    top: -40px;
+    background-color: #263238;
+    color: white;
   }
   
   .nav{
-    
     position: relative;
     
     &__logo{
@@ -124,19 +125,29 @@
 
     
     &__list{
-      width: 140px;
+      position: relative;
+      left: -50px;
+      color: white;
+      width: 400px;
       flex-direction: column;
-      align-items: center;
-      margin: 10px auto;
-      margin-left: 0;
+      margin: 0 auto;
+      margin-top: 30px;
     }
 
     &__item{
       margin-bottom: 10px;
+    
+      &-link{
+        color: white;
+      }
+
     }
+
+
 
     &__link{
       padding: 10px 27px;
+      color: white;
 
   }
 
