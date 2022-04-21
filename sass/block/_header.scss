@@ -3,6 +3,9 @@
   position: fixed;
   display: block;
   width: 100%;
+  padding-bottom: 70px;
+  background-color: #fff;
+  z-index: 99;
 }
 
 .linked{
@@ -34,8 +37,7 @@
     &-link{
       text-decoration: none;
       color: $button_bg-color;
-    }
-    
+    }  
   }
   
   &__link{
@@ -44,8 +46,8 @@
     @include base-heading1;
     padding: 17px 57px;
     border: solid 1px $button_bg-color;
-    
-    
+    border-radius: 5px;
+     
     &:hover{
       color: white;
       background-color:$button_bg-color ;
@@ -61,7 +63,6 @@
     }
     
   }
-
   
   &__label{
     width: 100%;
@@ -72,12 +73,10 @@
   
 }
 
-
 @media screen and(max-width:992px) {
   
   .nav{
-    
-    
+        
     &__link{
       padding: 14px 37px;
       font-size: 20px;
@@ -87,14 +86,9 @@
     &__list{
       max-width: 400px;
       font-size: 18px;
-    }  
-    
-    
-  }
-  
-  
+    }   
+  }  
 }
-
 
 @media screen and(max-width:767px) {
   
@@ -106,7 +100,7 @@
     background-color:#F5F5F5;
     flex-direction: column;
     align-items: center;
-    transform: translateX(-700px) ;
+    transform: translateX(-1000px) ;
     transition: all 1.2s;
   }
   
@@ -125,7 +119,6 @@
       top: 0;
     }
 
-    
     &__list{
       max-width: 200px;
       position: relative;
@@ -141,7 +134,6 @@
         color: black;
       }
     }
-
     &__link{
       padding: 10px 27px;
       color: black;
@@ -152,14 +144,12 @@
     &-bars,&-check,&-xmark{
       position: absolute;
       display: inline-block;
-      right: 40px;
+      right: 20px;
       top: 10px;
     }
-
     &-check{
       visibility: hidden;
-    }
-  
+    }  
     &-xmark{
       top: 2px;  
       right: 46px;
@@ -167,13 +157,8 @@
       color: #39515E;
       visibility: hidden;
   }
-  
-  }
-
-  
+  }  
 }
-
-
 
 input:checked ~ .toggle-bars {
   visibility: hidden;
@@ -186,25 +171,17 @@ input:checked ~ .toggle-xmark{
 input:checked ~ .linked{
 transform: translateX(0px);
 }
-
 }
 
-
-@media screen and (max-width:575px) {
-    
+@media screen and (max-width:575px) {   
   input:checked ~ .linked{
   transform: translateX(0px);
   }
-
 }
-
 
 @media screen and(max-width:320px) {
 
   input:checked ~ .linked{
     transform: translateX(0px);
-    }
-    
-  
-  
+    }  
 }
