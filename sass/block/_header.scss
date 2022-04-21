@@ -166,9 +166,8 @@
 }
 
 .linked{
-  position: relative;
-  top: 40px;
-  transform: translateX(-700px) ;
+  margin-top: 40px;
+  transform: translateX(-600px) ;
   transition: all 1.2s;
 }
 
@@ -181,7 +180,7 @@ input:checked ~ .toggle-xmark{
 }
 
 input:checked ~ .linked{
-transform: translateX(-200px);
+transform: translateX(0px);
 }
 
 }
@@ -190,7 +189,7 @@ transform: translateX(-200px);
 @media screen and (max-width:575px) {
     
   input:checked ~ .linked{
-  transform: translateX(-150px);
+  transform: translateX(0px);
   }
 
   .nav__logo{
@@ -204,11 +203,9 @@ transform: translateX(-200px);
 @media screen and(max-width:320px) {
 
   input:checked ~ .linked{
-    transform: translateX(-40px);
+    transform: translateX(0px);
     }
- 
-  .nav__logo{
-    margin-left: 0px;
-  }
+    
+  
   
 }
