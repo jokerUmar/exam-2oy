@@ -10,6 +10,7 @@
   margin-left: auto;
   @include base-flex;
   justify-content: space-between;
+  overflow: auto  ;
 }
 
 .nav{
