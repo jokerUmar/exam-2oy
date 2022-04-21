@@ -1,0 +1,16 @@
+@mixin base-heading1{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+@mixin base-heading2{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+@mixin base-flex {
+  display: flex;
+  align-items: center;
+}
