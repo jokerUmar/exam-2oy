@@ -20,6 +20,7 @@
   max-width: 100%;
   &-logo{
     margin-right: auto;
+    margin-left: 0;
   }
 
   &__list{
@@ -76,6 +77,10 @@
 @media screen and(max-width:992px) {
   
   .nav{
+
+    &__logo{
+      margin-left: 0;
+    }
         
     &__link{
       padding: 14px 37px;
@@ -109,7 +114,7 @@
     position: relative;
     
     &__logo{
-      margin-left: 40px;
+      margin-left: 1  0px;
     }
     
     &__label{
@@ -185,3 +190,5 @@ transform: translateX(0px);
     transform: translateX(0px);
     }  
 }
+
+ 

@@ -7,18 +7,21 @@ body{
 
 .container{
   max-width: 1300px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 
 @media screen and (max-width:992px) {
   .container{
     max-width: 929px;
+    padding: 0 10px;
   }
 }
 
 @media screen and (max-width:575px) {
   .container{
-  max-width: 535px;
+    max-width: 535px;
+    padding: 0 10px ;
 }
 
 }
@@ -30,3 +33,4 @@ body{
   }
 
 }
+
