@@ -329,12 +329,14 @@ margin-bottom: 170px;
             }
             
             &-submit{
+              width: 290px;
+              padding: 20px 0px;
+              text-align: center;
               display: block;
               margin-top: 10px;
-              border-radius: 10px;
+              border-radius: 5px;
               margin-left: 0px;
               font-size: 13px;
-              padding: 20px 180px 20px 10px;
               border: none;
             }
           }
