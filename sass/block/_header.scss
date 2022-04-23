@@ -174,20 +174,20 @@ input:checked ~ .toggle-xmark{
 }
 
 input:checked ~ .linked{
-transform: translateX(0px);
+transform: translateX(-10px);
 }
 }
 
 @media screen and (max-width:575px) {   
   input:checked ~ .linked{
-  transform: translateX(0px);
+  transform: translateX(-1  0px);
   }
 }
 
 @media screen and(max-width:320px) {
 
   input:checked ~ .linked{
-    transform: translateX(0px);
+    transform: translateX(-10px);
     }  
 }
 

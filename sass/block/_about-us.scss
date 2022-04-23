@@ -22,7 +22,7 @@ margin-right: auto;
   margin-top: 120px;
   @include base-heading2;
   color: $text-color;
-  width: 635px;
+  width: 600px;
 }
 
 
@@ -30,7 +30,7 @@ margin-right: auto;
   margin-top: 60px;
   @include base-flex;
   &>span{
-    margin-left: 163px;
+    margin-left: 13px;
     text-align: center
   }
 
@@ -156,7 +156,7 @@ margin-right: auto;
   
   
 .about{
-  margin-top: 450px;
+  margin-top: 650px;
   
   &-container{
     flex-direction: column-reverse;
@@ -166,7 +166,7 @@ margin-right: auto;
     font-size: 30px;
     display: inline-block;
     text-align: center;
-    margin-left: 200px;
+    margin-left: 100px;
   }
   
   &__img{
@@ -195,6 +195,7 @@ margin-right: auto;
     margin-right: 60px;
     max-width: 380px;
     @include base-flex;
+
     &>span{
       margin-left: 62px;
       text-align: center
@@ -236,20 +237,20 @@ margin-right: auto;
   
   &-heading{
 
-  &__text{
+    &__text{
     font-size: 13px;
     line-height: 19px;
-    max-width: 280px;
-    text-align: center;
-    margin: 100px auto;
+      max-width: 280px;
     margin-bottom: 20px;
     margin-top: 120px;
+
   }
   
   
   &_result{
     flex-direction: column;
     margin-left: 80px;
+    width: 160px;
     &>span{
       margin-left: 0;
       margin-left: 0;
@@ -258,6 +259,7 @@ margin-right: auto;
   
     &__bold{
       font-size: 24px;
+
     }
   
      }

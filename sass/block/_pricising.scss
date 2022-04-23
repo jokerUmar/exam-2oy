@@ -1,0 +1,380 @@
+.pricing{
+  &__title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  &-box{
+    @include base-flex;
+    justify-content: space-between;
+
+    &_card{
+      margin-left: 40px;
+
+      &:first-child{
+        margin-left: 0;
+      }
+
+      &:nth-child(2){
+
+        &>h3{
+          margin-top: 30px;
+        }
+
+        &>p{
+          margin-bottom: 50px;
+        }
+
+        &>img{
+          margin-left: -30px;
+          margin-top: 30px;
+        }
+      }
+
+      &:nth-child(3){
+        &>img{
+          margin-top: -20px;
+          margin-bottom: -10px;
+        }
+
+        &>p{
+          margin-bottom: 50px;
+        }
+
+      }
+
+
+      &__title{
+        color: #263238;
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      &__text{
+        color: $text-color;
+        width: 300px;
+        @include base-heading2;
+      }
+
+      &__cost{
+        background-color: #EEEEEE;
+        padding: 0 24px 0 18px;
+        font-size: 30px;
+
+        &-italic{
+          display: inline-block;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:992px) {
+ 
+  .pricing{
+    &__title{
+      font-size: 36px;
+    }
+  
+    &-box{
+  
+      &_card{
+        margin-left: 30px;
+        
+        &__img1{
+          width: 222px;
+          height: 222px;
+        }
+        
+        &__img2{
+          width: 267px;
+          height: 195px;
+        }
+        
+        &__img3{
+          width: 242px;
+          height: 242px;
+        }
+        
+        &:nth-child(3){
+          &>img{
+            margin-top: -20px;
+            margin-bottom: 10px;
+          }
+          
+          &>p{
+            margin-bottom: 60px;
+          }
+          
+        }
+        
+        
+        &__title{
+          width: 273px;
+          font-size: 22px;
+        }
+  
+        &__text{
+          width: 300px;
+          font-size: 16px;
+        }
+        
+        &__cost{
+          font-size: 24px;
+          border-radius: 5px;
+          
+          &-italic{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:767px) {
+  .pricing{
+    &__title{
+      font-size: 30px;
+    }
+  
+    &-box{
+  
+      &_card{
+        margin-left: 20px;
+  
+        &__img1{
+          width: 197px;
+          height: 197px;
+        }
+  
+        &__img2{
+          width: 219px;
+          height: 168px;
+        }
+  
+        &__img3{
+          width: 210px;
+          height: 210px;
+        }
+
+        &:nth-child(1){
+
+          &>p{
+            margin-bottom: 30px;
+          }
+          
+
+        }
+
+        &:nth-child(3){
+          &>img{
+            margin-top: -20px;
+            margin-bottom: 10px;
+          }
+
+          &>h3{
+            margin-top:20px;
+          }
+  
+          &>p{
+            margin-bottom: 60px;
+          }
+        }  
+  
+        &__title{
+          width: 154px;
+          font-size: 20px;
+        }
+  
+        &__text{
+          width: 260px;
+          font-size: 14px;
+        }
+  
+        &__cost{
+          font-size: 24px;
+  
+          &-italic{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:575px) {
+  .pricing{
+    
+    &__title{
+      margin: 131px 0 67px 0;
+    }
+  
+    &-box{
+      flex-direction: column;
+      
+      &_card{
+        text-align: center;
+        margin-bottom: 81px;
+
+  
+        &__img1{
+          width: 197px;
+          height: 197px;
+        }
+  
+        &__img2{
+          width: 219px;
+          height: 168px;
+        }
+  
+        &__img3{
+          width: 210px;
+          height: 210px;
+        }
+
+        &:nth-child(1){
+
+          &>p{
+            margin-bottom: 30px;
+          }
+        }
+
+        
+
+        &:nth-child(2){
+
+
+          &>h3{
+            margin-top: 10px;
+            margin-left: 40px;
+          }
+
+          &>p{
+            margin-bottom: 30px;
+          }
+        }
+
+
+        &:nth-child(3){
+          &>img{
+            margin-top: 20px;
+            margin-bottom: 0px;
+          }
+
+          &>h3{
+            margin-top:0px;
+          }
+  
+          &>p{
+            margin-bottom: 30px;
+          }
+        }  
+  
+        &__title{
+          width: 300px;
+          font-size: 24px;
+          margin: 0 auto;
+        }
+  
+        &__text{
+          width: 400px;
+        }
+  
+        &__cost{
+          font-size: 22px;
+       }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:320px) {
+   
+  .pricing{
+    
+    &__title{
+      font-size: 24px;
+    }
+  
+    &-box{
+      
+      &_card{
+  
+        &__img1{
+          width: 283px;
+          height: 283px;
+        }
+  
+        &__img2{
+          width: 248px;
+          height: 248px;
+        }
+  
+        &__img3{
+          width: 257px;
+          height: 197px;
+        }
+
+        &:nth-child(1){
+
+          &>p{
+            margin-bottom: 30px;
+          }
+        }
+
+        
+
+        &:nth-child(2){
+
+
+          &>h3{
+            margin-top: 10px;
+            margin-left: -10px;
+          }
+
+          &>p{
+            margin-bottom: 30px;
+          }
+        }
+
+
+        &:nth-child(3){
+          &>img{
+            margin-top: 20px;
+            margin-bottom: 0px;
+          }
+
+          &>h3{
+            margin-top:0px;
+          }
+  
+          &>p{
+            margin-bottom: 30px;
+          }
+        }  
+  
+        &__title{
+          width: 300px;
+          font-size: 18px;
+          margin: 0 auto;
+        }
+  
+        &__text{
+          width: 260px;
+          margin-left:10px;
+          font-size: 13px;
+        }
+  
+        &__cost{
+          font-size: 18px;
+       }
+      }
+    }
+  }
+
+}

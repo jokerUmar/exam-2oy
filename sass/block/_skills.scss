@@ -1,5 +1,4 @@
 .skills{
-
   &__title{
     text-align: center;
     margin-top: 162px;
@@ -41,7 +40,7 @@
     @include base-flex;
 
     &_left-card{
-      padding: 20px 23px 92px 22px;
+      padding: 40px 23px 92px 22px;
 
       &__title{
         margin-bottom: 5px;
@@ -61,7 +60,7 @@
 
     &_right-upper-card{
       display: inline-block;
-      padding: 10px 20px 47px 41px ;
+      padding: 10px 20px 47px 21px ;
       margin-left: 18px;
       margin-bottom: 20px;
   
@@ -72,7 +71,7 @@
 
       &__text{
         margin-bottom: 36px;
-        width: 367px;
+        width: 347px;
       }
 
       &__img{
@@ -91,7 +90,7 @@
     &_right-bottom-card{
       margin-left: 18px;
       @include base-flex;
-      padding: 30px 25px 40px 38px;
+      padding: 30px 25px 40px 28px;
 
       &>article{
         margin-right: auto;
@@ -257,7 +256,7 @@
   &-box{
 
     &_left-card{
-      padding: 31px 21px 37px 16px;
+      padding: 31px 1px 37px 6px;
 
       &__title{
         margin-bottom: 0px;
@@ -276,7 +275,7 @@
     }
 
     &_right-upper-card{
-      padding: 0px 10px 25px 19px ;
+      padding: 0px 0px 25px 9px ;
       margin-left: 10px;
       margin-bottom: 7px;
   
@@ -287,18 +286,19 @@
 
       &__text{
         margin-bottom: 26px;
-        width: 247px;
+        width: 197px;
       }
 
       &__img{
-        width: 205px;
+        width: 200px;
         height: 210px;
       }
 
       &__image{
-        width: 243px;
+        width: 216px;
         height: 160px;
         margin-bottom: 50px;
+        margin-left: 0px;
       }
     }    
 
@@ -359,7 +359,7 @@
 
   
   &-box{
-    height: 840px;
+    height:500px;
     flex-direction: column;
     
     &_left-card{
@@ -471,8 +471,7 @@
 
 @media screen and (max-width:320px) {
  
-  .skills{
-
+  .skills{  
     &__title{
       font-size: 24px;
     }
@@ -480,7 +479,8 @@
   &-block{
 
     &_card{
-
+      margin-left: 20px;
+      width: 230px;
       &__text{
         font-size: 12px;
       }
@@ -523,9 +523,8 @@
       }
 
       &__text{
-        margin-bottom: 26px;
         width: 200px;
-        margin-bottom: 120px;
+        margin-bottom: 20px;
       }
 
       &__img{
@@ -544,7 +543,8 @@
     }    
 
     &_right-bottom-card{
-      width: 220px;
+      width: 230px;
+      margin-left: 10px;
       flex-direction: column-reverse;
       border-radius: 5px;
       &>article{
@@ -556,9 +556,8 @@
       }
 
       &__text{
-        margin-bottom: 25px;
         width: 200px;
-        margin-bottom: 115px;
+        margin-bottom: 10px;
       }
 
       &__img{
