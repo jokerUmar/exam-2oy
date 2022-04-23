@@ -1,4 +1,7 @@
 .footer{
+  width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
 
   &-line{
     width: 100%;
@@ -28,6 +31,10 @@
 
 @media screen and (max-width:992px) {
   .footer{
+    width: 929px;
+    margin-left: auto;
+    margin-right: auto;
+  
     &-box{
       &__link{
         font-size: 16px;
@@ -39,6 +46,10 @@
 @media screen and(max-width:767px) {
   
   .footer{
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+  
     &-box{
       &__link{
         font-size: 13px;
@@ -50,6 +61,10 @@
 @media screen and(max-width:575px) {
   
   .footer{
+    width: 535px;
+    margin-left: auto;
+    margin-right: auto;
+  
     &-box{
       &__link{
         font-size: 12px;
@@ -60,7 +75,10 @@
 
 @media screen and(max-width:320px) {
   .footer{
-    
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+  
     &-box{
       flex-direction: column;
       margin-bottom: 60px;

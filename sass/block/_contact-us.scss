@@ -1,12 +1,14 @@
 .contact{
+width: 1260px;
+margin-left: auto;
+margin-right: auto;
 margin-bottom: 170px;
-margin-left: 30px;
   &__title{
     margin-top: 200px;
     font-size: 48px;
     font-weight: 600;
     margin-bottom: -50px;
-    margin-left: 510px;
+    text-align: center
   }
 
   &-box{
@@ -15,11 +17,11 @@ margin-left: 30px;
     &__img{
       max-width: 477px;
       width: 100%;
-      margin-right: 40px;
+      margin-right: auto;
     }
 
     &_heading{
-
+      max-width: 100%;
       &__text{
         @include base-heading2;
         color: $text-color;
@@ -30,11 +32,13 @@ margin-left: 30px;
       }
 
       &__label{
+        max-width: 776px;
         display: inline-block;
 
         &-email{
+          max-width: 400px;
           border-radius: 10px;
-          padding: 26px  150px 30px 33px;
+          padding: 26px  180px 30px 33px;
           border: solid 1px #8F95A5;
           outline: none;
 
@@ -46,6 +50,7 @@ margin-left: 30px;
         
         &-submit{
           margin-left: 12px;
+          max-width: 246px;
           @include base-heading2;
           background-color:#263238;
           color: white;
@@ -57,58 +62,16 @@ margin-left: 30px;
   }
 }
 
-@media screen and (max-width:1179px) {
-  
-  .contact{
-
-    &__title{
-        font-size: 40px;
-        text-align: center;
-        margin-left: 90px;
-      }
-    
-      &-box{
-    
-        &__img{
-          max-width: 380px;
-          width: 100%;
-          margin-right: 30px;
-        }
-    
-        &_heading{
-    
-          &__text{
-            max-width: 706px;
-            width: 100%;
-            font-size: 18px;
-          }
-    
-          &__label{
-    
-            &-email{
-              border-radius: 10px;
-              padding: 26px 130px 30px 30px;
-    
-            }
-            
-            &-submit{
-              margin-left: 10px;
-              font-size: 18px;
-              padding: 20px 40px;
-            }
-          }
-        }
-      }
-    }
-}
-
 @media screen and(max-width:992px) {
   .contact{
+    width: 929px;
+    margin-left: auto;
+    margin-right: auto;
 
     &__title{
         font-size: 36px;
-        margin-left: -30px;
         margin-bottom: -30px;
+        margin-left: 110px;
       }
     
       &-box{
@@ -132,7 +95,7 @@ margin-left: 30px;
             &-email{
               font-size: 14px;
               border-radius: 10px;
-              padding: 23px 100px 16px 30px;
+              padding: 23px 120px 16px 30px;
     
             }
             
@@ -149,66 +112,27 @@ margin-left: 30px;
 }
 
 
-@media screen and (max-width:830px) {
+
+@media screen and(max-width:767px) {
   
   .contact{
-    margin-left: 80px;
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+    
     &__title{
         font-size: 30px;
-        margin-bottom: 0px;
-        margin-left: -20px;
+        margin-left: 160px;
+        margin-top: 80px;
     }
     
       &-box{
     
         &__img{
-          max-width: 200px;
-          height: 211px;
-        }
-    
-        &_heading{
-    
-          &__text{
-            font-size: 16px;
-            max-width: 406px;
-            width: 100%;
-            margin-bottom: 10px;
-          }
-    
-          &__label{
-    
-            &-email{
-              font-size: 14px;
-              border-radius: 10px;
-              padding: 23px 80px 16px 30px;
-            }
-            
-            &-submit{
-              margin-left: 10px;
-              font-size: 16px;
-              padding: 16px 40px 11px 40px;
-              border: none;
-            }
-          }
-        }
-      }
-    }
-}
-
-@media screen and(max-width:787px) {
-  
-  .contact{
-
-    &__title{
-        font-size: 30px;
-        margin-left: 60px;
-    }
-    
-      &-box{
-    
-        &__img{
-          max-width: 200px;
-          height: 191px;
+          max-width: 233px;
+          height: 210px;
+          margin-left: 30px;
+          margin-right: 80px;
         }
     
         &_heading{
@@ -216,8 +140,9 @@ margin-left: 30px;
           &__text{
             margin-top: 0;
             font-size: 14px;
-            max-width: 336px;
+            max-width: 406px;
             width: 100%;
+            margin-top: 20px; 
             margin-bottom: 10px;
           }
     
@@ -245,9 +170,10 @@ margin-left: 30px;
 }
 
 @media screen and (max-width:575px) {
-  
-  
   .contact{
+    width: 535px;
+    margin-left: auto;
+    margin-right: auto;
 
     &__title{
 
@@ -300,10 +226,11 @@ margin-left: 30px;
     }
 }
 
-@media screen and (max-width:381px) {
-
-
+@media screen and (max-width:461px) {
   .contact{
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -230px;
     &__title{
         

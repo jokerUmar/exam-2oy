@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   padding: 0;
   margin: 0;
@@ -14,6 +18,14 @@ body{
 @media screen and (max-width:992px) {
   .container{
     max-width: 929px;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .container{
+    width: 690px;
+    margin: 0 auto;
     padding: 0 10px;
   }
 }

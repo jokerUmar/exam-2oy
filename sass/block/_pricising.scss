@@ -1,4 +1,9 @@
 .pricing{
+  width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+
+
   &__title{
     text-align: center;
     font-size: 48px;
@@ -75,6 +80,10 @@
 @media screen and (max-width:992px) {
  
   .pricing{
+    width: 929px;
+    margin-left: auto;
+    margin-right: auto;
+    
     &__title{
       font-size: 36px;
     }
@@ -105,10 +114,21 @@
             margin-bottom: 10px;
           }
           
-          &>p{
-            margin-bottom: 60px;
+          &>.pricing-box_card__cost{
+            display: inline-block;
+            margin-top: -60px;
           }
-          
+
+
+        }
+        
+        &:nth-child(2){  
+          &>.pricing-box_card__cost{
+            display: inline-block;
+            margin-top: -60px;
+          }
+
+
         }
         
         
@@ -137,66 +157,80 @@
 
 @media screen and (max-width:767px) {
   .pricing{
+  margin-top: 80px;  
+  width: 690px;
+  margin-left: auto;
+  margin-right: auto;
+
     &__title{
+      margin-top: 120px;
       font-size: 30px;
+      margin-bottom: 60px;
     }
   
     &-box{
-  
+      margin-top: -30px;
       &_card{
-        margin-left: 20px;
-  
+
+          &:nth-child(3){
+            margin-left: -8px;
+
+            &>p{
+              margin-bottom: 70px;
+            }
+
+          }
+
+          &:nth-child(2){
+
+            &>h3{
+              margin-left: -20px;
+              margin-top: 0px;
+            }
+
+            &>p{
+              margin-left: -20px;
+            }
+
+            .pricing-box_card__cost{
+              position: relative;
+              left: -20px;
+            }
+
+          }
+
         &__img1{
           width: 197px;
           height: 197px;
         }
   
         &__img2{
+          position: relative;
+          top: -36px;
+          left: -6px;
           width: 219px;
-          height: 168px;
+          height: 198px;
         }
   
         &__img3{
           width: 210px;
-          height: 210px;
+          height: 197px;
+          position: relative;
+          top: 6px;
         }
-
-        &:nth-child(1){
-
-          &>p{
-            margin-bottom: 30px;
-          }
-          
-
-        }
-
-        &:nth-child(3){
-          &>img{
-            margin-top: -20px;
-            margin-bottom: 10px;
-          }
-
-          &>h3{
-            margin-top:20px;
-          }
-  
-          &>p{
-            margin-bottom: 60px;
-          }
-        }  
-  
+        
         &__title{
-          width: 154px;
+          width: 200px;
           font-size: 20px;
         }
   
         &__text{
-          width: 260px;
+          width: 200px;
           font-size: 14px;
         }
   
         &__cost{
-          font-size: 24px;
+          font-size: 20px;
   
           &-italic{
             font-size: 16px;
@@ -209,7 +243,10 @@
 
 @media screen and (max-width:575px) {
   .pricing{
-    
+  width: 535px;
+  margin-left: auto;
+  margin-right: auto;
+
     &__title{
       margin: 131px 0 67px 0;
     }
@@ -296,6 +333,9 @@
 @media screen and (max-width:320px) {
    
   .pricing{
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;  
     
     &__title{
       font-size: 24px;

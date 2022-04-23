@@ -4,6 +4,10 @@
 
 
 .hero{
+  width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+
 padding-top: 200px;
 
 &__img{
@@ -59,6 +63,9 @@ position: relative;
 @media screen and (max-width:992px) {
 
   .hero{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;  
   margin-left: 0px;
 
     &__img{
@@ -106,6 +113,9 @@ position: relative;
   
   
   .hero{
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;  
     margin-left: 0px;
   
       &__img{
@@ -151,7 +161,11 @@ position: relative;
   .br,.br2{
     display: none;  
   }
+
   .hero{
+    width: 535px;
+    margin-left: auto;
+    margin-right: auto;  
     margin: 0;
 
     &__img{
@@ -205,7 +219,10 @@ position: relative;
 @media screen and (max-width:470px) {
   
   .hero{
-
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  
     &-heading{
 
       &__title{
@@ -239,7 +256,10 @@ position: relative;
     display: block;
   }
   .hero{
-    margin-left: 0;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+  
     &__img{
       width: 299px;
       height: 299px;
