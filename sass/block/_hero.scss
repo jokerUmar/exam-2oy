@@ -201,9 +201,9 @@ position: relative;
         display: inline-block;
         @include base-heading2;
         background-color: $button_bg-color;
-        width: 120px;
-        padding: 24px 95px;  
-        margin-left: 80px;
+        width: 250px;
+        padding: 24px 65px;  
+        margin-left: 120px;
         border-radius: 5px;
       }
  
@@ -237,7 +237,7 @@ position: relative;
       }
 
       &__link{
-        margin-left: 100px;
+        margin-left: 140px;
       }
 
       }
@@ -286,7 +286,6 @@ position: relative;
       &__link{
         margin-left: 115px;
         padding: 18px 79px;
-        width: 100px;
         font-size: 16px;
         font-weight: 500;
       }
